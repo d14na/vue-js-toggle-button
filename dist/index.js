@@ -172,7 +172,7 @@ var px = function px(v) {
       default: false
     },
     speed: {
-      type: Number,
+      type: [String, Number],
       default: 300
     },
     color: {
@@ -199,15 +199,15 @@ var px = function px(v) {
       }
     },
     height: {
-      type: Number,
+      type: [String, Number],
       default: 22
     },
     width: {
-      type: Number,
+      type: [String, Number],
       default: 50
     },
     fontSize: {
-      type: Number
+      type: [String, Number]
     }
   },
   computed: {
